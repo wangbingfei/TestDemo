@@ -1,28 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 214.61 sec <<< FAILURE! - in TestSuite
-Test(com.asg.uitest.Demo.NewTest)  Time elapsed: 62.725 sec  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: UiAUtomator shut down unexpectedly (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.58 seconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'wangbingfeideMacBook-Pro.local', ip: '192.168.22.194', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=com.iShangGang.iShangGang, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.56.101:5555, platform=LINUX, deviceUDID=192.168.56.101:5555, appActivity=com.asg.act.WelcomeAct, desired={appPackage=com.iShangGang.iShangGang, appActivity=com.asg.act.WelcomeAct, appium-version=1.6.5, platformVersion=5.0, automationName=Appium, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceName=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, resetKeyboard=false}, appium-version=1.6.5, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=unknown, resetKeyboard=false}]
-Session ID: 58931e8d-1abb-4707-83bb-1a3bc9c3ccbb
-*** Element info: {Using=id, value=com.iShangGang.iShangGang:id/guide_now}
-	at com.asg.uitest.Demo.NewTest.androidTest(NewTest.java:115)
-	at com.asg.uitest.Demo.NewTest.Test(NewTest.java:48)
-
-tearDown(com.asg.uitest.Demo.NewTest)  Time elapsed: 112.781 sec  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 12 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'wangbingfeideMacBook-Pro.local', ip: '192.168.22.194', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=com.iShangGang.iShangGang, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.56.101:5555, platform=LINUX, deviceUDID=192.168.56.101:5555, appActivity=com.asg.act.WelcomeAct, desired={appPackage=com.iShangGang.iShangGang, appActivity=com.asg.act.WelcomeAct, appium-version=1.6.5, platformVersion=5.0, automationName=Appium, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceName=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, resetKeyboard=false}, appium-version=1.6.5, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=unknown, resetKeyboard=false}]
-Session ID: 58931e8d-1abb-4707-83bb-1a3bc9c3ccbb
-	at com.asg.uitest.Demo.NewTest.tearDown(NewTest.java:42)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.508 sec - in TestSuite

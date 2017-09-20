@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="214.61" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.508" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
@@ -25,7 +25,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/wangbingfei/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5475521012202473103.tmp"/>
+    <property name="classworlds.conf" value="/Users/wangbingfei/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf1638791065004175583.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/wangbingfei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,51 +61,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Test" classname="com.asg.uitest.Demo.NewTest" time="62.725">
-    <failure message="An unknown server-side error occurred while processing the command. Original error: UiAUtomator shut down unexpectedly (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.58 seconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;wangbingfeideMacBook-Pro.local&apos;, ip: &apos;192.168.22.194&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.iShangGang.iShangGang, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.56.101:5555, platform=LINUX, deviceUDID=192.168.56.101:5555, appActivity=com.asg.act.WelcomeAct, desired={appPackage=com.iShangGang.iShangGang, appActivity=com.asg.act.WelcomeAct, appium-version=1.6.5, platformVersion=5.0, automationName=Appium, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceName=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, resetKeyboard=false}, appium-version=1.6.5, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=unknown, resetKeyboard=false}]&#10;Session ID: 58931e8d-1abb-4707-83bb-1a3bc9c3ccbb&#10;*** Element info: {Using=id, value=com.iShangGang.iShangGang:id/guide_now}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: UiAUtomator shut down unexpectedly (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.58 seconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'wangbingfeideMacBook-Pro.local', ip: '192.168.22.194', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=com.iShangGang.iShangGang, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.56.101:5555, platform=LINUX, deviceUDID=192.168.56.101:5555, appActivity=com.asg.act.WelcomeAct, desired={appPackage=com.iShangGang.iShangGang, appActivity=com.asg.act.WelcomeAct, appium-version=1.6.5, platformVersion=5.0, automationName=Appium, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceName=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, resetKeyboard=false}, appium-version=1.6.5, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=unknown, resetKeyboard=false}]
-Session ID: 58931e8d-1abb-4707-83bb-1a3bc9c3ccbb
-*** Element info: {Using=id, value=com.iShangGang.iShangGang:id/guide_now}
-	at com.asg.uitest.Demo.NewTest.androidTest(NewTest.java:115)
-	at com.asg.uitest.Demo.NewTest.Test(NewTest.java:48)
-</failure>
-    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
-引导页滑动失败：org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 27 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'wangbingfeideMacBook-Pro.local', ip: '192.168.22.194', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=com.iShangGang.iShangGang, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.56.101:5555, platform=LINUX, deviceUDID=192.168.56.101:5555, appActivity=com.asg.act.WelcomeAct, desired={appPackage=com.iShangGang.iShangGang, appActivity=com.asg.act.WelcomeAct, appium-version=1.6.5, platformVersion=5.0, automationName=Appium, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceName=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, resetKeyboard=false}, appium-version=1.6.5, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=unknown, resetKeyboard=false}]
-Session ID: 58931e8d-1abb-4707-83bb-1a3bc9c3ccbb
-引导页滑动失败：org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 14 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'wangbingfeideMacBook-Pro.local', ip: '192.168.22.194', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=com.iShangGang.iShangGang, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.56.101:5555, platform=LINUX, deviceUDID=192.168.56.101:5555, appActivity=com.asg.act.WelcomeAct, desired={appPackage=com.iShangGang.iShangGang, appActivity=com.asg.act.WelcomeAct, appium-version=1.6.5, platformVersion=5.0, automationName=Appium, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceName=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, resetKeyboard=false}, appium-version=1.6.5, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=unknown, resetKeyboard=false}]
-Session ID: 58931e8d-1abb-4707-83bb-1a3bc9c3ccbb
-]]></system-out>
-    <system-err><![CDATA[九月 11, 2017 6:02:08 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
-信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-九月 11, 2017 6:02:24 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
-信息: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="tearDown" classname="com.asg.uitest.Demo.NewTest" time="112.781">
-    <failure message="A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 12 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;wangbingfeideMacBook-Pro.local&apos;, ip: &apos;192.168.22.194&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.iShangGang.iShangGang, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.56.101:5555, platform=LINUX, deviceUDID=192.168.56.101:5555, appActivity=com.asg.act.WelcomeAct, desired={appPackage=com.iShangGang.iShangGang, appActivity=com.asg.act.WelcomeAct, appium-version=1.6.5, platformVersion=5.0, automationName=Appium, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceName=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, resetKeyboard=false}, appium-version=1.6.5, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=unknown, resetKeyboard=false}]&#10;Session ID: 58931e8d-1abb-4707-83bb-1a3bc9c3ccbb" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
-A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 12 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'wangbingfeideMacBook-Pro.local', ip: '192.168.22.194', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=com.iShangGang.iShangGang, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.56.101:5555, platform=LINUX, deviceUDID=192.168.56.101:5555, appActivity=com.asg.act.WelcomeAct, desired={appPackage=com.iShangGang.iShangGang, appActivity=com.asg.act.WelcomeAct, appium-version=1.6.5, platformVersion=5.0, automationName=Appium, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceName=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, resetKeyboard=false}, appium-version=1.6.5, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=unknown, resetKeyboard=false}]
-Session ID: 58931e8d-1abb-4707-83bb-1a3bc9c3ccbb
-	at com.asg.uitest.Demo.NewTest.tearDown(NewTest.java:42)
-</failure>
-  </testcase>
+  <testcase name="Test" classname="com.asg.uitest.Demo.NewTest" time="27.845"/>
 </testsuite>

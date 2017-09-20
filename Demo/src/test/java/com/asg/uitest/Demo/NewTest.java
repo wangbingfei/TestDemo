@@ -3,6 +3,9 @@ package com.asg.uitest.Demo;
 import java.awt.List;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -28,6 +31,10 @@ public class NewTest
 	//AppiumDriver<WebElement> driver;
 	AndroidDriver<WebElement> androidDriver;
 	IOSDriver<WebElement> iosDriver;
+	private static final String URL ="jdbc:mysql://192.168.22.251:3306/mstar_integration";
+	private static final String UNAME = "root";
+	private static final String PWD = "123456";
+	private static Connection conn = null;
 	
 	@BeforeClass
 	public void setUp() throws Exception
@@ -42,13 +49,14 @@ public class NewTest
     		androidDriver.quit();
     }
     @Test
-	public void Test() throws InterruptedException 
+	public void Test() throws InterruptedException, ClassNotFoundException, SQLException 
     {	
     		
     		androidTest();
     		//iosTest();
-        
 	}
+  
+    
     public void swipeToLeft(int duration) throws InterruptedException 
     {
     	

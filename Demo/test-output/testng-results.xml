@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37284" started-at="2017-09-07T07:48:09Z" finished-at="2017-09-07T07:48:47Z">
+  <suite name="Default suite" duration-ms="35091" started-at="2017-09-20T07:46:23Z" finished-at="2017-09-20T07:46:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37284" started-at="2017-09-07T07:48:09Z" finished-at="2017-09-07T07:48:47Z">
+    <test name="Default test" duration-ms="35091" started-at="2017-09-20T07:46:23Z" finished-at="2017-09-20T07:46:58Z">
       <class name="com.asg.uitest.Demo.NewTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.asg.uitest.Demo.NewTest@5f2108b5]" name="setUp" is-config="true" duration-ms="6810" started-at="2017-09-07T15:48:09Z" finished-at="2017-09-07T15:48:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.asg.uitest.Demo.NewTest@6536e911]" name="setUp" is-config="true" duration-ms="6537" started-at="2017-09-20T15:46:23Z" finished-at="2017-09-20T15:46:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:com.asg.uitest.Demo.NewTest@5f2108b5]" name="Test" duration-ms="29230" started-at="2017-09-07T15:48:16Z" finished-at="2017-09-07T15:48:45Z">
+        <test-method status="PASS" signature="Test()[pri:0, instance:com.asg.uitest.Demo.NewTest@6536e911]" name="Test" duration-ms="27324" started-at="2017-09-20T15:46:29Z" finished-at="2017-09-20T15:46:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.asg.uitest.Demo.NewTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="1225" started-at="2017-09-07T15:48:45Z" finished-at="2017-09-07T15:48:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.asg.uitest.Demo.NewTest@6536e911]" name="tearDown" is-config="true" duration-ms="1214" started-at="2017-09-20T15:46:57Z" finished-at="2017-09-20T15:46:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
