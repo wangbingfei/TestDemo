@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="27.844">
+           time="27.227">
   <properties />
   
   
-            <testcase name="Test" time="27.844" classname="com.asg.uitest.Demo.NewTest" />
+            <testcase name="Test" time="27.227" classname="com.asg.uitest.Demo.NewTest" />
       
 </testsuite>
